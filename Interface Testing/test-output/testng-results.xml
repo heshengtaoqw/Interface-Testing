@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2018-07-11T10:07:21Z" finished-at="2018-07-11T10:07:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2018-07-11T10:07:21Z" finished-at="2018-07-11T10:07:21Z">
+      <class name="com.parameter.Provider">
+        <test-method status="PASS" signature="TestDataProvider(java.lang.String, int, java.lang.String)[pri:0, instance:com.parameter.Provider@458ad742]" name="TestDataProvider" duration-ms="13" started-at="2018-07-11T18:07:21Z" data-provider="data" finished-at="2018-07-11T18:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider -->
+        <test-method status="PASS" signature="TestDataProvider(java.lang.String, int, java.lang.String)[pri:0, instance:com.parameter.Provider@458ad742]" name="TestDataProvider" duration-ms="1" started-at="2018-07-11T18:07:21Z" data-provider="data" finished-at="2018-07-11T18:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhaosi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider -->
+        <test-method status="PASS" signature="TestDataProvider2(java.lang.String, int, java.lang.String)[pri:0, instance:com.parameter.Provider@458ad742]" name="TestDataProvider2" duration-ms="3" started-at="2018-07-11T18:07:21Z" data-provider="data" finished-at="2018-07-11T18:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wangwu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider2 -->
+        <test-method status="PASS" signature="TestDataProvider2(java.lang.String, int, java.lang.String)[pri:0, instance:com.parameter.Provider@458ad742]" name="TestDataProvider2" duration-ms="2" started-at="2018-07-11T18:07:21Z" data-provider="data" finished-at="2018-07-11T18:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunliu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider2 -->
+      </class> <!-- com.parameter.Provider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

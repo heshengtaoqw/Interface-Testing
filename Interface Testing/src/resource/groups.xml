@@ -1,0 +1,27 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<suite name = "first suite">
+
+	<test name = "test">
+		<classes>
+			<class name = "com.groups.ClassGroup1" />
+			<class name = "com.groups.ClassGroup2" />
+		</classes>
+	</test>
+	
+	
+	<test name = "test groups">
+		<groups>
+			<run>
+				<include name = "group2"/>
+			</run>
+		</groups>
+		
+		
+		<classes>
+			<class name = "com.groups.ClassGroup1" />
+			<class name = "com.groups.ClassGroup2" />
+		</classes>
+
+	</test>
+	
+</suite>
