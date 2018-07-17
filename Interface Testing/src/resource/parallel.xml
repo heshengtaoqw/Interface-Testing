@@ -1,0 +1,18 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+
+<suite name = "first suite" parallel="tests" thread-count = "2">
+
+	<test name = "parallel">
+		<classes>
+			<class name = "com.parallel.ParallelTest"/>
+		</classes>
+		
+	</test>
+	
+		<test name = "parallel2">
+		<classes>
+			<class name = "com.parallel.ParallelTest2"/>
+		</classes>
+	</test>
+
+</suite>

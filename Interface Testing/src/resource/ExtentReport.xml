@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "ExtentReprot">
+	<parameter name = "date" value = "com.reports.MySystemInfo" />
+	<test name = "TestEx">
+		<classes>
+			<class name="com.reports.TestReport"/>
+				<methods>
+					<include name = "test1" />
+					<include name = "test2" />			
+					<include name = "test3" />				
+					<include name = "testReport" />
+				</methods>
+		</classes>
+	</test>
+	
+	<listeners>
+		<!-- <listener class-name = "com.vimalselvam.testng.listener.ExtentTestNgFormatter"/> --> 
+		<!-- <listener class-name = "com.extentreport.ExtentTestNGIReporterListenerOld"/>  -->
+		<listener class-name = "com.reports.MyListener" />
+		
+	</listeners>
+</suite>
