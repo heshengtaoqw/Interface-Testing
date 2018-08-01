@@ -1,0 +1,22 @@
+[
+	{
+		"description":"this is a redirect request",
+		"request":
+		{
+			"uri":"/redirect"
+		},
+		"redirectTo":"/newdirect"
+	},
+	
+	{
+		"description":"this is a redirected website",
+		"request":
+		{
+			"uri":"/newdirect"
+		},
+		"response":
+		{
+			"text":"this is a redirect text"
+		}
+	}
+]

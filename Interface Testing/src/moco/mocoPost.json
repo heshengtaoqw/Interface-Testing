@@ -1,0 +1,27 @@
+[
+		{
+			"description":"this is my first post request",
+			"request":{
+				"uri":"/postdemo",
+				"method":"post"
+				},
+			"response":{
+				"text":"this is my first post response"
+				}
+		},
+		
+		{
+			"description":"this is my first post request within parameters",
+			"request":{
+				"uri":"/postdemowithparam",
+				"method":"post",
+				"forms":{
+					"name":"zhangbo",
+					"age":"14"
+					}
+				},
+				"response":{
+					"text":"this is my first post response within parameters"
+					}
+		}
+]

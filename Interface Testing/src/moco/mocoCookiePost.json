@@ -1,0 +1,23 @@
+[
+	{
+		"description":"this is a POST request with cookie",
+		"request":{
+			"method":"post",
+			"uri":"/post/cookie",
+			"json":{
+				"name":"zhangsan",
+				"age":"45"
+			},
+			"cookies":{
+				"login":"true"
+			}
+		},
+		"response":{
+			"status":200,
+			"json":{
+				"name":"zhangsan",
+				"age":"45"
+			}
+		}
+	}
+]

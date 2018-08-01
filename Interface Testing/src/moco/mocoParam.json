@@ -1,0 +1,27 @@
+[
+	{
+		"description":"this is a description of request without param",
+		"request":{
+			"uri":"/getdemo",
+			"method":"get"
+		},
+		"response":{
+			"text":"this is a respond of request without param"
+		}
+	},
+	
+	{
+		"description":"this is a description of request within param",
+		"request":{
+			"uri":"/getdemowithparam",
+			"method":"get",
+			"queries":{
+				"name":"zhangbo",
+				"age":"15"	
+			}
+		},
+		"response":{
+			"text":"this is a respond of request within param"
+		}
+	}
+]

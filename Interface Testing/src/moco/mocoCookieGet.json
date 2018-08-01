@@ -1,0 +1,16 @@
+[
+	{
+		"description":"this is a request with cookie",
+		"request":{
+			"method":"get",
+			"uri":"/get/cook"
+		},
+		
+		"response":{
+			"cookies":{
+				"login":"true"		
+			},
+			"text":"this is a response with cookie"
+		}
+	}
+]

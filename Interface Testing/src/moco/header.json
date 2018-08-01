@@ -1,0 +1,33 @@
+[
+	{
+		"description":"this is a request with header",
+		"request":
+		{
+			"uri":"/post/header",
+			"method":"post",
+			"headers":
+			{
+				"Content-Type":"application/json"
+			},
+			"cookies":
+			{
+				"login":"true"
+			},
+			"json":
+			{
+				"name":"zhaoliu",
+				"age":"20"
+			}
+		},
+		"response":
+		{
+			"status":200,
+			"json":
+			{
+				"name":"zhaoliu",
+				"age":"20"
+			}
+		}
+		
+	}
+]

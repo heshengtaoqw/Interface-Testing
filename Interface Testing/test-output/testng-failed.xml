@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ExtentReprot]">
-  <parameter name="date" value="com.reports.MySystemInfo"/>
-  <listeners>
-    <listener class-name="com.reports.MyListener"/>
-  </listeners>
-  <test name="TestEx">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.reports.TestReport">
-        <methods>
-          <include name="test1"/>
-          <include name="test2"/>
-          <include name="test3"/>
-          <include name="testReport"/>
-        </methods>
-      </class> <!-- com.reports.TestReport -->
+      <class name="httpClientDemo.httpClientTest"/>
     </classes>
-  </test> <!-- TestEx -->
-  <test name="TestEx(failed)">
-    <classes>
-      <class name="com.reports.TestReport">
-        <methods>
-          <include name="testReport"/>
-        </methods>
-      </class> <!-- com.reports.TestReport -->
-    </classes>
-  </test> <!-- TestEx(failed) -->
-</suite> <!-- Failed suite [ExtentReprot] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
