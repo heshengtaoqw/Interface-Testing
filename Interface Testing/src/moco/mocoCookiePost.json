@@ -1,22 +1,48 @@
 [
+
+	{
+		"description":"this is a POST request with cookie",
+			"request":{
+				"method":"post",
+				"uri":"/post/get/cookie",
+				"json":{
+					"name":"zhangsan",
+					"age":"45"
+				}
+			},
+			"response":{
+				"status":200,
+				"cookies":{
+					"login":"true"
+				},
+				"json":{
+					"name":"zhangsan",
+					"age":"45"
+				}
+			}
+	},
+	
 	{
 		"description":"this is a POST request with cookie",
 		"request":{
 			"method":"post",
-			"uri":"/post/cookie",
+			"uri":"/post/send/cookies",
 			"json":{
-				"name":"zhangsan",
-				"age":"45"
+				"name":"wangliu",
+				"age":"40"
 			},
 			"cookies":{
 				"login":"true"
+			},
+			"headers":{
+			"Content-Type":"application/json"
 			}
 		},
 		"response":{
 			"status":200,
 			"json":{
-				"name":"zhangsan",
-				"age":"45"
+				"name":"wangliu",
+				"age":"39"
 			}
 		}
 	}

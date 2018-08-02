@@ -1,9 +1,9 @@
 [
 	{
-		"description":"this is a request with cookie",
+		"description":"this is a request",
 		"request":{
 			"method":"get",
-			"uri":"/get/cook"
+			"uri":"/get/cookies"
 		},
 		
 		"response":{
@@ -12,5 +12,29 @@
 			},
 			"text":"this is a response with cookie"
 		}
+	},
+	
+	{
+		"description":"this is a request with cookie",
+		"request":
+		{
+			"method":"get",
+			"uri":"/send/cookies",
+			"cookies":
+			{
+				"login":"true"
+			}
+		},
+		
+		"response":
+		{
+			"status":200,
+			"cookies":{
+				"user":"tom"		
+			},
+			"text":"this is a response while request with cookies"
+		}
 	}
+	
+	
 ]

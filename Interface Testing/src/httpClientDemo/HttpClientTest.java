@@ -6,7 +6,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 
-public class httpClientTest {
+public class HttpClientTest {
 	@Test
 	public void test() throws Exception
 	{
