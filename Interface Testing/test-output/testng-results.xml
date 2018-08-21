@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="382" started-at="2018-08-02T01:46:53Z" finished-at="2018-08-02T01:46:54Z">
+  <suite name="Default suite" duration-ms="408" started-at="2018-08-02T09:49:25Z" finished-at="2018-08-02T09:49:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="382" started-at="2018-08-02T01:46:53Z" finished-at="2018-08-02T01:46:54Z">
-      <class name="httpClientDemo.HttpClientForGet">
-        <test-method status="PASS" signature="setTestURL()[pri:0, instance:httpClientDemo.HttpClientForGet@7823a2f9]" name="setTestURL" is-config="true" duration-ms="12" started-at="2018-08-02T09:46:53Z" finished-at="2018-08-02T09:46:53Z">
+    <test name="Default test" duration-ms="408" started-at="2018-08-02T09:49:25Z" finished-at="2018-08-02T09:49:26Z">
+      <class name="httpClientDemo.HttpClientForPost">
+        <test-method status="PASS" signature="setTestURL()[pri:0, instance:httpClientDemo.HttpClientForPost@457e2f02]" name="setTestURL" is-config="true" duration-ms="14" started-at="2018-08-02T17:49:25Z" finished-at="2018-08-02T17:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestURL -->
-        <test-method status="PASS" signature="getCookie()[pri:0, instance:httpClientDemo.HttpClientForGet@7823a2f9]" name="getCookie" duration-ms="339" started-at="2018-08-02T09:46:53Z" finished-at="2018-08-02T09:46:54Z">
+        <test-method status="PASS" signature="getCookie()[pri:0, instance:httpClientDemo.HttpClientForPost@457e2f02]" name="getCookie" duration-ms="357" started-at="2018-08-02T17:49:25Z" finished-at="2018-08-02T17:49:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCookie -->
-        <test-method status="PASS" signature="sendCookie()[pri:0, instance:httpClientDemo.HttpClientForGet@7823a2f9]" name="sendCookie" duration-ms="14" started-at="2018-08-02T09:46:54Z" depends-on-methods="httpClientDemo.HttpClientForGet.getCookie" finished-at="2018-08-02T09:46:54Z">
+        <test-method status="PASS" signature="sendCookie()[pri:0, instance:httpClientDemo.HttpClientForPost@457e2f02]" name="sendCookie" duration-ms="20" started-at="2018-08-02T17:49:26Z" depends-on-methods="httpClientDemo.HttpClientForPost.getCookie" finished-at="2018-08-02T17:49:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendCookie -->
-      </class> <!-- httpClientDemo.HttpClientForGet -->
+      </class> <!-- httpClientDemo.HttpClientForPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
